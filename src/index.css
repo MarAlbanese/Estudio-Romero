@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-image: linear-gradient(to left, #cccccc, rgba(250, 250, 250, 0.932));
+}
+
+.fondo{
+  background-image: url('../src/assets/oficina.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  margin-top: -150px;
+}
+.fondo-2{
+    background-image: url('../src/assets/martillo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 60vh;
+}
+
